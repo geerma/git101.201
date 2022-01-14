@@ -13,3 +13,11 @@ git push
 git commit -m "<commit messages>"
 
 git checkout -b feature-1
+
+git push -u origin feature-1
+#-u means upstream (from local to github)
+
+git pull
+
+git branch -d feature-1
+#deletes branch feature-1
