@@ -8,8 +8,6 @@ git init
 
 git add .
 
-git push
-
 git commit -m "<commit messages>"
 
 git checkout -b feature-1
@@ -21,3 +19,6 @@ git pull
 
 git branch -d feature-1
 #deletes branch feature-1
+
+git rebase -i main
+#commit history
